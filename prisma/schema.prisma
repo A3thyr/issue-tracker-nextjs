@@ -35,7 +35,7 @@ model User {
   emailVerified  DateTime?
   image          String?
   Session        Session[]
-  Account        Account?
+  Account        Account[]
   assignedIssues Issue[]
   createdAt      DateTime  @default(now())
   updatedAt      DateTime  @updatedAt
